@@ -7,7 +7,7 @@ port = int(os.getenv('PORT'))
 
 
 @app.route('/')
-def hello-world():
+def hello_world():
     return f"Hello World ! I am running on port {port}"
 
 
